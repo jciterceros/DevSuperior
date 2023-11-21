@@ -1,5 +1,7 @@
 package org.example;
 
+import java.util.Locale;
+
 public class Main {
     /*
      * Em seguida, usando os valores das variaveis, produza a
@@ -30,10 +32,11 @@ public class Main {
 
         System.out.println("Products:");
         System.out.printf("%s, which price is $ %.2f%n", product1, price1);
-        System.out.printf("%s, which price is $ %.2f%n\n", product2, price2);
-        System.out.printf("Record: %s years old, code %d and gender: %c\n\n", age, code, gender);
+        System.out.printf("%s, which price is $ %.2f%n%n", product2, price2);
+        System.out.printf("Record: %s years old, code %d and gender: %c%n%n", age, code, gender);
         System.out.printf("Measue with eight decimal places: %.8f%n", measure);
         System.out.printf("Rouded (three decimal places): %.3f%n", measure);
+        Locale.setDefault(Locale.US);
         System.out.printf("US decimal point: %.3f%n", measure);
     }
 }
