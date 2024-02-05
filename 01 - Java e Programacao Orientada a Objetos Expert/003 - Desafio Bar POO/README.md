@@ -14,23 +14,41 @@ Para resolver o problema, você deve criar uma classe conforme projeto ao lado.
 
 #### EXEMPLO 1:
 
-| Prompt de comando | Entrada |
-| ----------------- | ------: |
+| Prompt de comando            | Entrada |
+| ---------------------------- | ------: |
+| Sexo:                        |       F |
+| Quantidade de cervejas:      |       3 |
+| Quantidade de refrigerantes: |       0 |
+| Quantidade de espetinhos:    |       1 |
 
 ##### RELATÓRIO:
 
-| Prompt de comando | Saida |
-| ----------------- | ----: |
+| Prompt de comando |    Saida |
+| ----------------- | -------: |
+| Consumo =         | R$ 22.00 |
+| Couvert =         |  R$ 4.00 |
+| Ingresso =        |  R$ 8.00 |
+|                   |          |
+| Valor a pagar =   | R$ 34.00 |
 
 #### EXEMPLO 2:
 
-| Prompt de comando | Entrada |
-| ----------------- | ------: |
+| Prompt de comando            | Entrada |
+| ---------------------------- | ------: |
+| Sexo:                        |       M |
+| Quantidade de cervejas:      |       7 |
+| Quantidade de refrigerantes: |       1 |
+| Quantidade de espetinhos:    |       2 |
 
 ##### RELATÓRIO:
 
-| Prompt de comando | Saida |
-| ----------------- | ----: |
+| Prompt de comando |    Saida |
+| ----------------- | -------: |
+| Consumo =         | R$ 52.00 |
+| Couvert =         |  R$ 4.00 |
+| Ingresso =        | R$ 10.00 |
+|                   |          |
+| Valor a pagar =   | R$ 34.00 |
 
 ##### CRITÉRIOS DE AVALIAÇÃO (TODOS PRECISAM ESTAR CORRETOS):
 
