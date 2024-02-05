@@ -20,49 +20,49 @@ conforme exemplo abaixo.
 Você deve utilizar uma classe TaxPayer conforme projeto ao lado para representar cada contribuinte. Repare que sua lista vai ter que ser uma List<TaxPayer>
 
 <div align="center">
-<img alt="Logo 005 - Contribuintes POO e Lista Java" title="Logo 005 - Contribuintes POO e Lista Java" width="250px" src="">
+<img alt="Logo 005 - Contribuintes POO e Lista Java" title="Logo 005 - Contribuintes POO e Lista Java" width="250px" src="https://github.com/jciterceros/DevSuperior/blob/ed5c0ac189b3e63059cd33067646691b769c57d6/01%20-%20Java%20e%20Programacao%20Orientada%20a%20Objetos%20Expert/005%20-%20Desafio%20Contribuintes%20POO%20e%20Lista%20Java/src/assets/ModelTaxPayer.png">
 </div>
 
 Lembre-se de respeitar os nomes apresentados no projeto ao lado (como foi fornecido o projeto para você executar, você tem que respeitar a especificação do projeto). Sinta-se livre para implementar construtores pra facilitar a instanciação dos objetos.
 
 #### EXEMPLO 1:
 
-| Prompt de comando                       |   Entrada |
-| --------------------------------------- | --------: |
-| Quantos contribuintes você vai digitar? |         2 |
-|                                         |           |
-|                                         |           |
-| Digite os dados do 1o contribuinte:     |           |
-| Renda anual com salário:                |  48000.00 |
-| Renda anual com prestação de serviço:   |      0.00 |
-| Renda anual com ganho de capital:       |    800.00 |
-| Gastos médicos:                         |    400.00 |
-| Gastos educacionais:                    |   5400.00 |
-|                                         |           |
-|                                         |           |
-| Prompt de comando                       |   Entrada |
-| -------------------------------------   | --------: |
-| Digite os dados do 2o contribuinte:     |           |
-| Renda anual com salário:                | 189000.00 |
-| Renda anual com prestação de serviço:   |  55184.93 |
-| Renda anual com ganho de capital:       |  20000.00 |
-| Gastos médicos:                         |    600.00 |
-| Gastos educacionais:                    |   7500.00 |
+| Prompt de comando                       |  Entrada |
+| --------------------------------------- | -------: |
+| Quantos contribuintes você vai digitar? |        2 |
+|                                         |          |
+|                                         |          |
+| Digite os dados do 1o contribuinte:     |          |
+| Renda anual com salário:                | 48000.00 |
+| Renda anual com prestação de serviço:   |     0.00 |
+| Renda anual com ganho de capital:       |   800.00 |
+| Gastos médicos:                         |   400.00 |
+| Gastos educacionais:                    |  5400.00 |
+|                                         |          |
+
+| Prompt de comando                     |   Entrada |
+| ------------------------------------- | --------: |
+| Digite os dados do 2o contribuinte:   |           |
+| Renda anual com salário:              | 189000.00 |
+| Renda anual com prestação de serviço: |  55184.93 |
+| Renda anual com ganho de capital:     |  20000.00 |
+| Gastos médicos:                       |    600.00 |
+| Gastos educacionais:                  |   7500.00 |
 
 ##### RELATÓRIO DOS CONTRIBUINTES
 
 ##### RESUMO:
 
+| Prompt de comando          |   Saida |
+| -------------------------- | ------: |
+| Resumo do 1o contribuinte: |         |
+| Imposto bruto total:       | 4960.00 |
+| Abatimento:                | 1488.00 |
+| Imposto devido:            | 3472.00 |
+|                            |         |
+
 | Prompt de comando          |    Saida |
 | -------------------------- | -------: |
-| Resumo do 1o contribuinte: |          |
-| Imposto bruto total:       |  4960.00 |
-| Abatimento:                |  1488.00 |
-| Imposto devido:            |  3472.00 |
-|                            |          |
-|                            |          |
-| Prompt de comando          |    Saida |
-| --------------------       | -------: |
 | Resumo do 2o contribuinte: |          |
 | Imposto bruto total:       | 50077.74 |
 | Abatimento:                |  8100.00 |
