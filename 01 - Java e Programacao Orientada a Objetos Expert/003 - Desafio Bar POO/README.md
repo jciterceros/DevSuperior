@@ -9,7 +9,7 @@ O programa deve então mostrar um relatório com a conta a ser paga pelo cliente
 Para resolver o problema, você deve criar uma classe conforme projeto ao lado.
 
 <div align="center">
-<img alt="Logo 003 - Desafio Bar POO Java" title="Logo 003 - Desafio Bar POO Java" width="150px" src="https://github.com/jciterceros/DevSuperior/blob/main/01%20-%20Java%20e%20Programacao%20Orientada%20a%20Objetos%20Expert/003%20-%20Desafio%20Bar%20POO/src/assets/ModelBar.png">
+<img alt="Logo 003 - Desafio Bar POO Java" title="Logo 003 - Desafio Bar POO Java" width="200px" src="https://github.com/jciterceros/DevSuperior/blob/main/01%20-%20Java%20e%20Programacao%20Orientada%20a%20Objetos%20Expert/003%20-%20Desafio%20Bar%20POO/src/assets/ModelBar.png">
 </div>
 
 #### EXEMPLO 1:
