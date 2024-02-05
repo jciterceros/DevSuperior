@@ -12,7 +12,7 @@ A regra para um campeão A receber dano de outro campeão B é a seguinte:
    O método status deve retornar o nome e a situação de vida do campeão (inclusive com a palavra "morreu" se a vida estiver a zero), conforme exemplos.
 
 <div align="center">
-<img alt="Logo 004 - Desafio Combate POO Java" title="Logo 004 - Desafio Combate POO Java" width="200px" src="https://github.com/jciterceros/DevSuperior/blob/35f62c522066aae766a55a37853589fe2a7979f4/01%20-%20Java%20e%20Programacao%20Orientada%20a%20Objetos%20Expert/004%20-%20Desafio%20Combate%20-%20Construtores%20Encapsulamento%20Sobrecarga/src/assets/ModelCombat.png">
+<img alt="Logo 004 - Desafio Combate POO Java" title="Logo 004 - Desafio Combate POO Java" width="400px" src="https://github.com/jciterceros/DevSuperior/blob/35f62c522066aae766a55a37853589fe2a7979f4/01%20-%20Java%20e%20Programacao%20Orientada%20a%20Objetos%20Expert/004%20-%20Desafio%20Combate%20-%20Construtores%20Encapsulamento%20Sobrecarga/src/assets/ModelCombat.png">
 </div>
 
 #### EXEMPLO 1:
