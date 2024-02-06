@@ -46,5 +46,4 @@ public class Department {
     public String getEmail() {
         return adress.getEmail();
     }
-
 }

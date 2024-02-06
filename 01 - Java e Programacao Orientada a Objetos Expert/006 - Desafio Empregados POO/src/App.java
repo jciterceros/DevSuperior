@@ -15,7 +15,7 @@ public class App {
 
         System.out.print("Dia do pagamento: ");
         int payDay = sc.nextInt();
-        sc.nextLine(); // Consumir a quebra de linha após a leitura do inteiro
+        sc.nextLine();
 
         System.out.print("Email: ");
         String deptEmail = sc.nextLine();
@@ -28,7 +28,7 @@ public class App {
 
         System.out.print("Quantos funcionários tem o departamento? ");
         int numEmployees = sc.nextInt();
-        sc.nextLine(); // Consumir a quebra de linha após a leitura do inteiro
+        sc.nextLine();
 
         for (int i = 1; i <= numEmployees; i++) {
             System.out.println("Dados do funcionário " + i + ":");
@@ -37,7 +37,7 @@ public class App {
 
             System.out.print("Salário: ");
             double empSalary = sc.nextDouble();
-            sc.nextLine(); // Consumir a quebra de linha após a leitura do double
+            sc.nextLine();
 
             Employee employee = new Employee(empName, empSalary);
             dept.addEmployee(employee);
@@ -57,7 +57,6 @@ public class App {
         for (Employee employee : dept.getEmployees()) {
             System.out.println(employee.getName());
         }
-
         System.out.println("Para dúvidas, favor entrar em contato: " + dept.getEmail());
     }
 }
