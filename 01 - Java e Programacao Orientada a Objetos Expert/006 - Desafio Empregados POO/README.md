@@ -33,7 +33,7 @@ Você deve fazer um programa para ler os dados de um departamento, que inclui se
 Para resolver este problema, você deverá implementar as entidades conforme projeto abaixo. O método payroll() da classe Department é responsável por retornar o valor total da folha de pagamento do departamento:
 
 <div align="center">
-<img alt="Model Department" title="Model Department" width="450px" src="">
+<img alt="Model Department" title="Model Department" width="450px" src="https://github.com/jciterceros/DevSuperior/blob/e225dd4e4d0595995f547eb28c6a10e47f2b5f14/01%20-%20Java%20e%20Programacao%20Orientada%20a%20Objetos%20Expert/006%20-%20Desafio%20Empregados%20POO/src/assets/ModelDepartment.png">
 </div>
 
 ##### Critérios de avaliação ATENÇÃO:
@@ -41,5 +41,5 @@ Para resolver este problema, você deverá implementar as entidades conforme pro
 - Para o exemplo dado acima, esta é a estrutura de objetos que você deverá criar na memória:
 
 <div align="center">
-<img alt="Instance Department in Memory" title="Instance Department in Memory" width="350px" src="">
+<img alt="Instance Department in Memory" title="Instance Department in Memory" width="350px" src="https://github.com/jciterceros/DevSuperior/blob/e225dd4e4d0595995f547eb28c6a10e47f2b5f14/01%20-%20Java%20e%20Programacao%20Orientada%20a%20Objetos%20Expert/006%20-%20Desafio%20Empregados%20POO/src/assets/Instance%20Department%20in%20Memory.png">
 </div>
