@@ -1,10 +1,10 @@
-## DESAFIO: Desafio Plataforma de ensino Java
+## DESAFIO: Plataforma de ensino Java
 
 Você foi contratada(o) para criar um sistema de plataforma de ensino.
 Para isto você deve criar um programa para ler os dados das aulas de um curso, e em seguida mostrar a duração total do curso, que é a soma das durações de cada aula.
 
 <div align="center">
-    <img alt="Model Lesson" title="Model Lesson" width="650px" src="">
+    <img alt="Model Lesson" title="Model Lesson" width="650px" src="https://github.com/jciterceros/DevSuperior/blob/5c56de68e7122aec755ff7edf0207f6bb8f2bc8e/01%20-%20Java%20e%20Programacao%20Orientada%20a%20Objetos%20Expert/007%20-%20Desafio%20Plataforma%20de%20ensino/src/assets/ModelDomain.png">
 </div>
 
 Cada aula pode ser um conteúdo em vídeo, ou então uma tarefa.
