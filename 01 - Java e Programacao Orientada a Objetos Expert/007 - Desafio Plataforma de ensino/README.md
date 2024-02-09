@@ -21,31 +21,31 @@ Você deve criar uma única lista do tipo List<Lesson> para armazenar todas aula
 
 #### EXEMPLO :
 
-| Prompt de comando                            |                             Entrada |
-| -------------------------------------------- | ----------------------------------: |
-| Quantas aulas tem o curso?                   |                                   3 |
-|                                              |                                     |
-| Dados da 1a aula:                            |                                     |
-| Conteúdo ou tarefa (c/t)?                    |                                   c |
-| Título:                                      |                Orientação a objetos |
-| URL do vídeo:                                |                https://youtu.be/aBh |
-| Duração em segundos:                         |                                 310 |
-|                                              |                                     |
-| Dados da 2a aula:                            |                                     |
-| Conteúdo ou tarefa (c/t)?                    |                                   c |
-| Título:                                      |                      Listas em Java |
-| URL do vídeo:                                |                https://youtu.be/e5a |
-| Duração em segundos:                         |                                 250 |
-|                                              |                                     |
-| Dados da 3a aula:                            |                                     |
-| Conteúdo ou tarefa (c/t)?                    |                                   t |
-| Título:                                      |                Exercício de fixação |
-| Descrição:                                   | Faça um prog. que imprima uma lista |
-| Quantidade de questões:                      |                                   2 |
-|                                              |                                     |
-| Saida                                        |
-| -------------------------------------------- |
-| DURAÇÃO TOTAL DO CURSO = 1160 segundos       |
+| Prompt de comando          | Entrada                             |
+| -------------------------- | :---------------------------------- |
+| Quantas aulas tem o curso? | 3                                   |
+|                            |                                     |
+| Dados da 1a aula:          |                                     |
+| Conteúdo ou tarefa (c/t)?  | c                                   |
+| Título:                    | Orientação a objetos                |
+| URL do vídeo:              | https://youtu.be/aBh                |
+| Duração em segundos:       | 310                                 |
+|                            |                                     |
+| Dados da 2a aula:          |                                     |
+| Conteúdo ou tarefa (c/t)?  | c                                   |
+| Título:                    | Listas em Java                      |
+| URL do vídeo:              | https://youtu.be/e5a                |
+| Duração em segundos:       | 250                                 |
+|                            |                                     |
+| Dados da 3a aula:          |                                     |
+| Conteúdo ou tarefa (c/t)?  | t                                   |
+| Título:                    | Exercício de fixação                |
+| Descrição:                 | Faça um prog. que imprima uma lista |
+| Quantidade de questões:    | 2                                   |
+
+| Saida                                  |
+| -------------------------------------- |
+| DURAÇÃO TOTAL DO CURSO = 1160 segundos |
 
 ##### CRITÉRIOS DE AVALIAÇÃO (TODOS DEVEM ESTAR CORRETOS):
 
