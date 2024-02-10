@@ -1,10 +1,11 @@
 import java.io.File;
 import java.io.FileNotFoundException;
 import java.util.ArrayList;
-import java.util.Comparator;
+import java.util.HashSet;
 import java.util.List;
 import java.util.Locale;
 import java.util.Scanner;
+import java.util.Set;
 
 import entities.Sale;
 
@@ -39,23 +40,22 @@ public class App {
             }
             fileSc.close();
 
-            // Encontrar as cinco primeiras vendas de 2016 com o maior preço médio
-            System.out.println("");
-            System.out.println("Cinco primeiras vendas de 2016 de maior preço médio");
-            sales.stream()
-                    .filter(sale -> sale.getYear() == 2016)
-                    .sorted(Comparator.comparingDouble(Sale::averagePrice).reversed())
-                    .limit(5)
-                    .forEach(sale -> System.out
-                            .println(sale.toString() + ", pm = " + String.format("%.2f", sale.averagePrice())));
-            System.out.println("");
+            // Obter nomes únicos de vendedores usando um conjunto (Set)
+            Set<String> uniqueSellers = new HashSet<>();
+            for (Sale sale : sales) {
+                uniqueSellers.add(sale.getSeller());
+            }
 
-            // Calcular o valor total vendido pelo vendedor Logan nos meses 1 e 7
-            double totalLogan = sales.stream()
-                    .filter(sale -> sale.getSeller().equals("Logan") && (sale.getMonth() == 1 || sale.getMonth() == 7))
-                    .mapToDouble(Sale::getTotal).sum();
-            // .map(Sale::getTotal).reduce(0.0, (x, y) -> x + y);
-            System.out.println("Valor total vendido pelo vendedor Logan nos meses 1 e 7 = " + totalLogan);
+            // Calcular o total vendido por cada vendedor usando Stream + lambda
+            System.out.println("");
+            System.out.println("Total de vendas por vendedor:");
+            uniqueSellers.stream().forEach(seller -> {
+                double total = sales.stream()
+                        .filter(s -> s.getSeller().equals(seller))
+                        .mapToDouble(Sale::getTotal)
+                        .sum();
+                System.out.println(seller + " - R$ " + String.format("%.2f", total));
+            });
 
         } catch (FileNotFoundException e) {
             System.out.printf("Erro: %s (O sistema não pode encontrar o arquivo especificado)", path);
