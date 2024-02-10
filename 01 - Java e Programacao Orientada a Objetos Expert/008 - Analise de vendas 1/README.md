@@ -3,7 +3,7 @@
 Você deve ler um arquivo .csv contendo uma base de dados de registros de venda, e instanciar na memória uma lista de objetos do tipo Sale, conforme projeto ao lado (Atenção: não use tipos primitivos int e double nos atributos e métodos! Use os tipos wrapper Integer e Double, conforme mostrado no projeto).
 
 <div align="center">
-    <img alt="Model Sales" title="Model Sales" width="550px" src="">
+    <img alt="Model Sales" title="Model Sales" width="250px" src="https://github.com/jciterceros/DevSuperior/blob/08fbf98f0109b28639959ec2d191cf53ada31591/01%20-%20Java%20e%20Programacao%20Orientada%20a%20Objetos%20Expert/008%20-%20Analise%20de%20vendas%201/src/assets/ModelSales.png">
 </div>
 
 Favor baixar a base de dados .csv daqui:
