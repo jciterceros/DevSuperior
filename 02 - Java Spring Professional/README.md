@@ -114,5 +114,5 @@
 
 ##### Certificado de conclusão:
 
-● Desafios para entregar com correção e feedback (validando seu conhecimento)
-● Carga horaria do curso com Certificado 120h.
+- Desafios para entregar com correção e feedback (validando seu conhecimento)
+- Carga horaria do curso com Certificado 120h.
